@@ -36,6 +36,7 @@ public class LoginServlet extends HttpServlet {
 					+ new String(password.getBytes("iso-8859-1"), "utf-8"));
 
 		}
+		//new commit test.
 		// 模拟一个查询数据库的操作.
 		if ("zhangsan".equals(name) && "123456".equals(password)) {
 			//向页面写入数据，采用utf-8编码方式**********
